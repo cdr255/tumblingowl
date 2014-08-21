@@ -10,6 +10,9 @@ about the things I make or do or think.
 I want to look back here next August and
 without question know I worked hard this year.
 
+![Example of my Workspace](http://i.imgur.com/c7cfxcF.png
+"I use Fluxbox, xterm, emacs and chromium, if You are wondering")
+
 And yes, setting up this website was work.
 
 I ended up spending about a day
@@ -34,6 +37,10 @@ with all the lag that came from non-static
 engines.
 
 [Toto][toto] seems not to have any lag (yet).
+
+![A Picture of Phoebe. The Tumbling Owl](http://i.imgur.com/qoL56Dv.png
+"Phoebe likes her new home, but still likes to roll away now and
+again.")
 
 So I woke up and went to work post haste:
 I knew I had a mascot readymade
