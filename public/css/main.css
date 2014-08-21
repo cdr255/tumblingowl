@@ -7,11 +7,7 @@ body {
   padding: 15px;
   width: 720px;
   background-color: #f1f1f1;
-background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 50%),
-linear-gradient(90deg, rgba(255,255,255,.13) 50%, transparent 50%),
-linear-gradient(90deg, transparent 50%, rgba(255,255,255,.17) 50%),
-linear-gradient(90deg, transparent 50%, rgba(255,255,255,.19) 50%);
-background-size: 13px, 29px, 37px, 53px;
+  background-image: url("https://s3.amazonaws.com/tumblingowl/scanlines.png")
 }
 header, footer, section, article {
 	display: block;
@@ -142,8 +138,5 @@ body > header > h4 {
 border-top-left-radius: 30px;
 border-top-right-radius: 5px;
 border-bottom-right-radius: 30px;
-border-bottom-left-radius: 50px;
-box-shadow: 64px 64px 12px 40px rgba(0,0,0,0.4),
-            12px 12px 0px 8px rgba(0,0,0,0.4) inset;
-    
+border-bottom-left-radius: 50px;    
 }
