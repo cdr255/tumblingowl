@@ -208,6 +208,7 @@ margin-bottom: 1.5em;
 }
 
 .content > p > img {
+  display: block;
   max-width: 90%;
   margin-left: auto;
   margin-right: auto;
