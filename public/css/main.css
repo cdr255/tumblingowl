@@ -85,7 +85,8 @@ body > header {
 	display: block;
 	padding-top: 30px;
 	line-height: 40px;
-	margin-bottom: 100px;
+	padding-bottom: 50px;
+	margin-bottom: 50px;
 	background: rgba(255, 255, 255, 0.8);
 -webkit-border-top-left-radius: 20px;
 -webkit-border-top-right-radius: 20px;
