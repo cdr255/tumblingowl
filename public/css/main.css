@@ -196,10 +196,10 @@ border-top-left-radius: 5px;
 border-top-right-radius: 5px;
 border-bottom-right-radius: 5px;
 border-bottom-left-radius: 5px;
-    
+  width: 100%;
   }
 
-.post > p {
+.content > p {
 line-height: 3em;
 margin-bottom: 10px;
 }
