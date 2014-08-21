@@ -208,5 +208,7 @@ margin-bottom: 1.5em;
 }
 
 .content > img {
-  max-width: 100%;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
