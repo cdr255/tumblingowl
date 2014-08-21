@@ -1,7 +1,7 @@
 html { margin: 20px }
 body {
   margin: 0 auto;
-  font-family: 'Baskerville', Georgia, Times, serif;
+  font-family: 'Roboto Slab', 'Baskerville', Georgia, Times, serif;
   font-size: 20px;
   line-height: 30px;
   padding: 15px;
@@ -9,6 +9,15 @@ body {
   background-color: #0000ff;
   background-image: url("https://s3.amazonaws.com/tumblingowl/bg.png");
 }
+
+body > strong {
+font-weight: 700;
+}
+
+body > em {
+font-weight: 100;
+}
+
 header, footer, section, article {
 	display: block;
 }
@@ -104,6 +113,7 @@ body > footer {
   color: #888;
 }
 body > header > h1 {
+  font-family: 'Cinzel Decorative', cursive;
   border-left: 30px double black; 
   padding-left: 30px;
   font-size: 3em;
@@ -121,6 +131,7 @@ body > header > img {
 }
 
 body > header > h4 {
+  font-family: 'Tangerine', cursive;
   float: right;
 }
 
