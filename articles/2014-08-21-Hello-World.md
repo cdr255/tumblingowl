@@ -1,4 +1,4 @@
-title: Hello World, Goodbye Kansas
+title: Hello World Goodbye Kansas
 author: Christopher Rodriguez
 date: 2014/08/21
 
