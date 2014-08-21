@@ -6,7 +6,12 @@ body {
   line-height: 30px;
   padding: 15px;
   width: 720px;
-  
+  background-color: #ddd;
+background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 50%),
+linear-gradient(90deg, rgba(255,255,255,.13) 50%, transparent 50%),
+linear-gradient(90deg, transparent 50%, rgba(255,255,255,.17) 50%),
+linear-gradient(90deg, transparent 50%, rgba(255,255,255,.19) 50%);
+background-size: 13px, 29px, 37px, 53px;
 }
 header, footer, section, article {
 	display: block;
@@ -124,5 +129,18 @@ body > header > h4 {
 }
 
 #articles {
-  background-color: #eeeeee;
+  padding: 7px;
+  background-color: #ffffff;
+-webkit-border-top-left-radius: 30px;
+-webkit-border-top-right-radius: 5px;
+-webkit-border-bottom-right-radius: 30px;
+-webkit-border-bottom-left-radius: 50px;
+-moz-border-radius-topleft: 30px;
+-moz-border-radius-topright: 5px;
+-moz-border-radius-bottomright: 30px;
+-moz-border-radius-bottomleft: 50px;
+border-top-left-radius: 30px;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 30px;
+border-bottom-left-radius: 50px;
 }
