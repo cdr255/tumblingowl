@@ -6,8 +6,8 @@ body {
   line-height: 30px;
   padding: 15px;
   width: 720px;
-  background-color: #f1f1f1;
-  background-image: url("https://s3.amazonaws.com/tumblingowl/scanlines.png")
+  background-color: #0000ff;
+  background-image: url("https://s3.amazonaws.com/tumblingowl/bg.png");
 }
 header, footer, section, article {
 	display: block;
