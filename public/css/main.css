@@ -143,4 +143,7 @@ border-top-left-radius: 30px;
 border-top-right-radius: 5px;
 border-bottom-right-radius: 30px;
 border-bottom-left-radius: 50px;
+box-shadow: 64px 64px 12px 40px rgba(0,0,0,0.4),
+            12px 12px 0px 8px rgba(0,0,0,0.4) inset;
+    
 }
