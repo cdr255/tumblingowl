@@ -114,7 +114,7 @@ body > footer {
 }
 body > header > h1 {
   font-family: 'Cinzel Decorative', cursive;
-  border-left: 30px double black; 
+  /* border-left: 30px double black;  */
   padding-left: 30px;
   font-size: 3em;
   margin: 100px 10px 15px 0;
