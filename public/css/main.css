@@ -141,12 +141,12 @@ border-bottom-right-radius: 5px;
 border-bottom-left-radius: 5px;    
 }
 
-#post > header {
+.post > header {
   background-color: #ccccdd;
   padding: 5px;
 }
 
-#post > #content {
+.post > .content {
   background-color: #ffffff;
   padding: 10px;
 -webkit-border-top-left-radius: 5px;
