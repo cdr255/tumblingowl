@@ -2,12 +2,18 @@ GEM
   remote: https://rubygems.org/
   specs:
     builder (3.2.2)
+    kgio (2.9.2)
     rack (1.5.2)
+    raindrops (0.13.0)
     rdiscount (2.1.7.1)
     toto (0.4.9)
       builder
       rack
       rdiscount
+    unicorn (4.8.3)
+      kgio (~> 2.6)
+      rack
+      raindrops (~> 0.7)
 
 PLATFORMS
   ruby
@@ -16,3 +22,4 @@ DEPENDENCIES
   builder
   rdiscount
   toto
+  unicorn
