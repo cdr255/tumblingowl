@@ -35,4 +35,5 @@ I'll let You all know how it goes when done!
 
 [reddit]: http://www.reddit.com/r/bodyweightfitness/comments/25kxq1/just_get_started_guide/ "I like this routine a lot."
 [lsit]: https://fitloop.co/exercises/foot-supported-l-sit "It is much harder than it looks."
+[parallettes]: http://en.wikipedia.org/wiki/Parallettes "They are a common addition to bodyweight training."
 [instr]: http://celtickane.com/projects/homemade-parallettes/ "I'm making these out of metal pipe instead."
