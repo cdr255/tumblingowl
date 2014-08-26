@@ -1,4 +1,6 @@
-builder
-rdiscount
-toto
-
+ruby '2.1.2'
+source 'https://rubygems.org'
+gem 'builder'
+gem 'rdiscount'
+gem 'toto'
+gem 'unicorn'
