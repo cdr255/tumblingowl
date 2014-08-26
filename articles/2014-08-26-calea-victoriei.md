@@ -2,6 +2,7 @@
 title: Calea Victoriei
 date: 26/08/2014
 
+
 As I've begun to make my first record
 (with my new [Xenyx][xenyx] now fully set up),
 I found time to look back on all my work
