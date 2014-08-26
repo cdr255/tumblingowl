@@ -29,3 +29,5 @@ from the same iron as many of the
 old pieces that I play from repertoire.
 I am hopeful that I can make it work,
 and will include it on my first album.
+
+[xenyx]: http://tumblingowl.herokuapp.com/2014/08/24/xenyx-302usb/ "Click to read my thoughts on the Xenyx 302USB mixer in a GNU/Linux environment!"
