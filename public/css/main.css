@@ -165,7 +165,7 @@ body > header > h4 {
 border-top-left-radius: 5px;
 border-top-right-radius: 5px;
 border-bottom-right-radius: 5px;
-border-bottom-left-radius: 5px;    
+border-bottom-left-radius: 5px;
 }
 
 .post > header {
@@ -212,4 +212,99 @@ margin-bottom: 1.5em;
   max-width: 90%;
   margin-left: auto;
   margin-right: auto;
+}
+
+nav {
+   background: none;
+   height: 40px;
+   margin-top: -90px;
+   margin-bottom: 50px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: block;
+    position: relative;
+    float: left;
+}
+
+nav li ul {
+    display: none;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 7px 15px 3px 15px;
+}
+
+nav ul li a:hover {
+    background: rgba(200, 200, 200, 0.7);
+}
+
+nav li:hover ul {
+    display: block;
+    position: absolute;
+    height: 40px;
+}
+
+nav li:hover ul li {
+    width: 100%;
+    background: rgba(200, 200, 200, 0.7);
+    text-align: center;
+    display: block;
+}
+nav li:hover ul li:hover {
+    background: rgba(200, 200, 200, 1);
+}
+
+.links h1 {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.links h3 {
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ccccdd;
+    padding: 5px;
+    text-align: right;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: -20px;
+    padding-bottom: 10px;
+}
+
+.links ul {
+    background-color: #ffffff;
+    padding: 10px;
+    width: 88.55%;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.links li i {
+    min-width: 2em;
+}
+
+.links li a {
+    text-decoration: none;
 }

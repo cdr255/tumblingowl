@@ -1,7 +1,13 @@
 ---
 title: Calea Victoriei
 date: 26/08/2014
+summary: "As I've begun to make my first record (with my new Xenyx now fully set up), I found time to look back"
 
+
+Only rarely will I delete something
+that I have made, because someday it *might*
+be useful, or at least something to share
+with those around me who might care to see.
 
 As I've begun to make my first record
 (with my new [Xenyx][xenyx] now fully set up),
