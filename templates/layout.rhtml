@@ -3,10 +3,54 @@
   <head>
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <link rel="alternate" type="application/atom+xml" title="<%= title %> - feed" href="/index.xml" />
+    <link href='http://fonts.googleapis.com/css?family=Tangerine|Cinzel+Decorative:900|Roboto+Slab:400,100,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
-    <title><%= title %></title>
+    <meta name="description" 
+	  content="<%= @context[:description] || 'A Blog Post by Christopher Rodriguez (Not Described Yet)' %>" /> 
+    <title>
+      <% if @path == 'index' %>
+      Tumbling Owl: A Blog by Chris Rodriguez
+      <% elsif @path.split('/').compact.length == 4 %>
+      <%= title %> - Tumbling Owl: A Blog by Chris Rodriguez
+      <% else %>
+      <%= @path.capitalize.gsub(/[-]/, ' ') %> - Tumbling Owl: A Blog by Chris Rodriguez
+      <% end %>
+    </title>
   </head>
+
   <body>
+    <header>
+      <img src="https://s3.amazonaws.com/tumblingowl/logo.png" title="The Original Tumbling Owl, Phoebe." alt="The Tumbling Owl Logo" />
+      <h1><i class="fa fa-cloud"></i>&nbsp;&nbsp;<a href="/">Tumbling Owl</a></h1><br />
+      <h4>cdr255:weblog</h4>
+    </header>
+    <nav>
+      <ul>
+	<li <%= ' class="active"' if @path == 'index' %>>
+          <a href="/">Home</a>
+	</li>
+	<li <%= ' class="active"' if @path == 'archives' %>>
+          <a href="/archives">Archive</a>
+	</li>
+<!--	<li <%= ' class="active"' if @path == 'categories' %>>
+	  <a href="/categories">Categories<span class="caret"></span></a>
+	</li>
+-->	<li <%= ' class="active"' if @path == 'links' %>>
+	  <a href="/links">Links<span class="caret"></span></a>
+	  <ul>
+	    <li><a href="http://www.cdr255.com/" title="My Homepage"><i class="fa fa-home"></i></a></li>
+	    <li><a href="https://www.youtube.com/user/cdr255" title="Youtube Channel"><i class="fa fa-youtube"></i></a></li>
+	    <li><a href="https://twitter.com/cdr255" title="Twitter Feed"><i class="fa fa-twitter"></i></a></li>
+	    <li><a href="https://github.com/cdr255" title="Github Profile"><i class="fa fa-github"></i></a></li>
+	    <li><a href="https://cdr255.bandcamp.com/" title="Bandcamp Page"><i class="fa fa-music"></i></a></li>
+	  </ul>
+	</li>
+	  
+	
+      </ul>
+    </nav>
+
     <section>
       <%= yield %> 
     </section>

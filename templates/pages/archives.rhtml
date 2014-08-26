@@ -1,4 +1,27 @@
-<h1><%= @path %></h1>
+<h1 style="display: block; width: 100%; text-align: center;">Articles</h1> 
+ 
+<table style="width: 90%; margin-left: auto; margin-right: auto; background: rgba(200, 200, 200, 0.5);"> 
+  <% if archives.length > 0 %> 
+    <% last_month = nil %> 
+    <% for entry in archives %> 
+      <tr> 
+        <td align="right" style="padding: 10px; "> 
+          <% month = entry.date.split.first %> 
+          <% if last_month.nil? || month != last_month %> 
+            <%= month %> 
+            <%= entry.date.split.last %> 
+          <% end %> 
+          <% last_month = month %> 
+        </td> 
+        <td style="background: rgba(255, 255, 255, 0.5); border: none; "> 
+          <a href="<%= entry.path %>" style="text-decoration: none;"><%= entry.title %></a> 
+        </td> 
+      </tr> 
+    <% end %> 
+  <% end %> 
+</table>
+
+<!-- <h1>Archived Posts</h1>
 <ul>
   <% if archives.length > 0 %>
     <% for entry in archives %>
@@ -9,3 +32,4 @@
   <% end %>
 </ul>
 
+-->
