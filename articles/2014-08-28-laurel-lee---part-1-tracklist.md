@@ -2,6 +2,9 @@
 title: Laurel Lee - Part 1 "Tracklist"
 date: 28/08/2014
 
+I've found the harp incites people to ask
+a few questions more often than others.
+
 One question I am asked quite often is,
 "Do You have any albums of Your harp
 music?" Until today, I would have just
@@ -37,3 +40,7 @@ a solo harp rendition of one track
 will work as well as I thought it would.
 
 I guess we will soon see. I'll let You know.
+
+
+[bc-demo]: https://cdr255.bandcamp.com/track/2013-demo-snippet "This was recorded a few years ago; I have improved a lot since then."
+[tracklist]: https://s3.amazonaws.com/tumblingowl/Laurel%20Lee/tracklist.txt "I may update this file as I go."
