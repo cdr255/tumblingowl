@@ -301,6 +301,10 @@ nav li:hover ul li:hover {
     margin-right: auto;
 }
 
+.links ul li {
+    list-style-type: none;
+}
+
 .links li i {
     min-width: 2em;
 }
