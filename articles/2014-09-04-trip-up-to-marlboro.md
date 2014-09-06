@@ -1,6 +1,6 @@
 ---
 title: Trip up to Marlboro
-date: 05/09/2014
+date: 04/09/2014
 
 Today I made the ride up to Vermont,
 To visit with Mikaela for a week.
