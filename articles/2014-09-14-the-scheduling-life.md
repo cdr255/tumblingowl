@@ -47,3 +47,5 @@ updating my schedule as things went on.
 And something great emerged when I looked back.
 
 I'm not upset with what I did last night.
+
+[headaches]: http://www.tumblingowl.com/2014/08/23/headaches-and-asthma/ "I am going to be visiting the doctor soon, to try to figure them out."
