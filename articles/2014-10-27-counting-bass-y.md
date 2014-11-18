@@ -3,6 +3,8 @@ title: Counting Bass-y
 date: 27/10/2014
 description: Christopher Rodriguez talks about jazz and electric bass.
 
+__NOTE: FRAGMENT POST__
+
 Returning from my second trip to see
 Mikaela at her school up in Vermont,
 I've noticed two new things about myself.
